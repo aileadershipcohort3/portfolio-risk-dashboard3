@@ -52,14 +52,14 @@ const CATEGORY_LABELS: Record<RiskCategory, string> = {
 const EXPOSURE_BAR_COLOR = "#333a42";
 
 const INDUSTRY_PALETTE = [
-  "#1f4267",
-  "#2c5a8c",
-  "#4a7ab0",
-  "#7098c2",
-  "#9db8d6",
-  "#5b6572",
-  "#8b95a1",
-  "#b8c0c9",
+  "#14141a",
+  "#e8600c",
+  "#b94c09",
+  "#8a6b52",
+  "#f2934f",
+  "#6b6f76",
+  "#9a9ea5",
+  "#c9ccd1",
 ];
 
 function formatCurrency(value: number): string {

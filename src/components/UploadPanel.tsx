@@ -38,7 +38,7 @@ export default function UploadPanel({
           type="file"
           accept={accept}
           onChange={handleChange}
-          className="block w-full text-sm text-[var(--muted)] file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-medium file:text-white file:bg-[#171a1f] hover:file:opacity-90 file:cursor-pointer cursor-pointer"
+          className="block w-full text-sm text-[var(--muted)] file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-medium file:text-white file:bg-[var(--ink)] hover:file:opacity-90 file:cursor-pointer cursor-pointer"
         />
       </div>
       {selectedFileName && (
